@@ -649,46 +649,6 @@
         padding: 9px 11px;
     }
 
-    /* Scroll-reveal footer en móvil */
-    .scroll-reveal-footer {
-        transform: translateY(25px);
-    }
-
-    .scroll-reveal-footer.revealed {
-        transform: translateY(0);
-    }
-
-    .scroll-reveal-footer::before {
-        background: linear-gradient(
-            90deg,
-            transparent 0%,
-            rgba(255, 255, 255, 0.15) 50%,
-            transparent 100%
-        );
-    }
-
-    /* Footer principal del carrito en móvil */
-    #mainFooterAcciones {
-        padding: 12px 16px;
-    }
-
-    #mainFooterAcciones .btn-yellow,
-    #mainFooterAcciones .btn-white {
-        padding: 12px 16px;
-        font-size: 14px;
-    }
-
-    /* Footer del modal de dirección en móvil */
-    #modalDireccionFooter {
-        padding: 12px 16px;
-    }
-
-    #modalDireccionFooter .btn-modal-cancelar,
-    #modalDireccionFooter .btn-modal-confirmar {
-        padding: 11px 14px;
-        font-size: 14px;
-    }
-
 }
 
 /* ================= TABLETS: 768px - 991px ================= */
@@ -700,87 +660,6 @@
 
     .metodo-pago-group {
         grid-template-columns: 1fr 1fr;
-    }
-
-    /* Scroll-reveal footer en tablets */
-    .scroll-reveal-footer {
-        transform: translateY(28px);
-    }
-
-    .scroll-reveal-footer.revealed {
-        transform: translateY(0);
-    }
-
-    .scroll-reveal-footer::before {
-        background: linear-gradient(
-            90deg,
-            transparent 0%,
-            rgba(255, 255, 255, 0.12) 50%,
-            transparent 100%
-        );
-    }
-
-    /* Footer principal del carrito en tablets */
-    #mainFooterAcciones {
-        padding: 14px 20px;
-    }
-
-    /* Footer del modal de dirección en tablets */
-    #modalDireccionFooter {
-        padding: 14px 20px;
-    }
-
-}
-
-/* ================= DESKTOP: 992px+ ================= */
-@media (min-width: 992px) {
-
-    /* Scroll-reveal footer en desktop */
-    .scroll-reveal-footer {
-        transform: translateY(30px);
-    }
-
-    .scroll-reveal-footer.revealed {
-        transform: translateY(0);
-    }
-
-    .scroll-reveal-footer::before {
-        background: linear-gradient(
-            90deg,
-            transparent 0%,
-            rgba(255, 255, 255, 0.1) 50%,
-            transparent 100%
-        );
-    }
-
-    /* Footer principal del carrito en desktop */
-    #mainFooterAcciones {
-        padding: 16px 24px;
-    }
-
-    /* Footer del modal de dirección en desktop */
-    #modalDireccionFooter {
-        padding: 16px 24px;
-    }
-
-}
-
-/* ================= PANTALLAS GRANDES: 1200px+ ================= */
-@media (min-width: 1200px) {
-
-    /* Scroll-reveal footer en pantallas grandes */
-    .scroll-reveal-footer::before {
-        animation-duration: 1.8s;
-    }
-
-    /* Footer principal del carrito en pantallas grandes */
-    #mainFooterAcciones {
-        padding: 18px 28px;
-    }
-
-    /* Footer del modal de dirección en pantallas grandes */
-    #modalDireccionFooter {
-        padding: 18px 28px;
     }
 
 }
