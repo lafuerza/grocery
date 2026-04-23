@@ -92,13 +92,13 @@ var TOP_VENDIDOS_SEMANA = [
 
 // Metadata de las categorías: nombre visible, icono y clave interna
 var CATEGORIAS = {
-    "burgers":     { nome: "Antimicrobianos", icone: "fas fa-capsules" },
-    "pizzas":      { nome: "Antiinflamatorios", icone: "fas fa-pills" },
-    "churrasco":   { nome: "Antialérgicos", icone: "fas fa-allergies" },
-    "steaks":      { nome: "Antihipertensivo", icone: "fas fa-heartbeat" },
-    "bebidas":     { nome: "Digestivos", icone: "fas fa-prescription-bottle" },
-    "sobremesas":  { nome: "Dermatológicos", icone: "fas fa-hand-holding-medical" },
-    "outros":      { nome: "Otros", icone: "fas fa-notes-medical" }
+    "burgers":     { nome: "Harina y Levadura", icone: "fas fa-bread-slice" },
+    "pizzas":      { nome: "Mercado", icone: "fas fa-store" },
+    "churrasco":   { nome: "Confituras", icone: "fas fa-cookie-bite" },
+    "steaks":      { nome: "Aseo", icone: "fas fa-soap" },
+    "bebidas":     { nome: "Cárnicos", icone: "fas fa-drumstick-bite" },
+    "sobremesas":  { nome: "Embutidos", icone: "fas fa-bacon" },
+    "outros":      { nome: "Líquidos", icone: "fas fa-tint" }
 };
 
 cardapio.eventos = {
